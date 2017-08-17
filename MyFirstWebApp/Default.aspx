@@ -9,6 +9,18 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            What is your first name?&nbsp;
+            <asp:TextBox ID="firstNameTextBox" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            What is your last name?&nbsp;
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="okButton" runat="server" Text="Click Me" />
+            <br />
+            <br />
+            <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </div>
     </form>
 </body>
